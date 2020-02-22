@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="45dp"
+        android:text="Bienvenido Usuario escoja una figura geométrica"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Btriangulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="249dp"
+        android:text="Triangulo" />
+
+    <Button
+        android:id="@+id/Brectangulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="225dp"
+        android:layout_y="252dp"
+        android:onClick="addRectangulo"
+        android:text="Rectangulo" />
+
+    <Button
+        android:id="@+id/Bparlelogramo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="179dp"
+        android:onClick="addParalelogramo"
+        android:text="Paralelogramo" />
+
+    <Button
+        android:id="@+id/Btrapecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="329dp"
+        android:text="Trapecio" />
+
+    <Button
+        android:id="@+id/Bhexagono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="331dp"
+        android:text="Hexagono" />
+
+</AbsoluteLayout>
