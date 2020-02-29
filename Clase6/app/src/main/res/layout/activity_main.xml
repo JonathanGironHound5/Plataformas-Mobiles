@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="80dp"
+        android:text="Cedula"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etCedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="105dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="168dp"
+        android:text="Nombre y Apellido" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="200dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="272dp"
+        android:text="Nombre Colegio" />
+
+    <EditText
+        android:id="@+id/etColegio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="297dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="246dp"
+        android:layout_y="571dp"
+        android:onClick="modificar"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/bInsertar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="494dp"
+        android:onClick="insertar"
+        android:text="Insertar" />
+
+    <Button
+        android:id="@+id/bEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="568dp"
+        android:onClick="eliminar"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/bConsultar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="246dp"
+        android:layout_y="492dp"
+        android:onClick="consulta"
+        android:text="Consultar" />
+
+    <EditText
+        android:id="@+id/etMesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="406dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="376dp"
+        android:text="Numero Mesa" />
+
+</AbsoluteLayout>
